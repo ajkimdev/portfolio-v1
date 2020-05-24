@@ -5,13 +5,15 @@ import NotFoundImg from "../../static/404.svg";
 function NotFoundPage() {
   return (
     <Layout>
-      <div className="flex flex-col">
+      <div className="mt-24 md:mt-0">
         <img
           alt="pageNotFound"
-          className="object-none object-center"
+          className="object-contain h-32 w-full md:h-64"
           src={NotFoundImg}
         />
-        <h2 className="text-center text-3xl md:text-4xl">Page Not Found</h2>
+        <h2 className="text-center text-3xl text-gray-800 md:text-4xl">
+          Page Not Found
+        </h2>
       </div>
     </Layout>
   );
