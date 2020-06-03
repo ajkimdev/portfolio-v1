@@ -10,7 +10,7 @@ function about() {
           {/* prettier-ignore */}
           <p className="pr-0 md:pr-8">
             I like building various software and learning different languages.
-            I mainly learned Object-Oriented Programming using <code>Java</code> and Data analysis with <code>Python</code>. Also, I am playing with<code>C</code> langs and <code>Javascript</code> through side projects. If you are interested, you can view some of my favorite projects in my portfolio down below.
+            I mainly learned Object-Oriented Programming using <code>Java</code> and Data analysis with <code>Python</code>. Also, I am playing with <code>C</code> langs and <code>Javascript</code> through side projects. If you are interested, you can view some of my favorite projects in my portfolio down below.
           </p>
         </div>
         <div className="w-full mb-8 md:w-1/3 md:mb-0">
