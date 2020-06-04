@@ -14,5 +14,13 @@ module.exports = {
         icon: `./static/alphalogo.svg`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Fira Sans']
+        }
+      }
+    },
   ],
 };

@@ -1,7 +1,10 @@
 @tailwind base;
 code {
-  @apply text-sm;
+  /* @apply text-sm; */
   @apply text-gray-600;
+}
+html {
+  font-family: 'Fira Sans', sans-serif;
 }
 @tailwind components;
 @tailwind utilities;
